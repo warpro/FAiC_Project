@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자유로운 지구생활</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="banner">
+            <h1 style="margin-top: 50px;">자 유 로 운　지 구 생 활</h1>
+            <ul>
+                <li class="navi-item">
+                    <a class="navi-link" href="./information">Information</a>
+                </li>
+                <li class="navi-item">
+                    <a class="navi-link" href="./main">Go to Main</a>
+                </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="contents">
+            <p><h2>Here is the best image of {{ name }}!</h2></p>
+            <p><h3>Score : {{ max_score }}</h3></p>
+            <p style="text-align: center;"><img src={{ img_path }}></p>
+            <p style="text-align: center;"><a class="try-again" href="./main">Try Again</a></p>
+        </div>
+    </div>
+</body>
+</html>
